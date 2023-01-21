@@ -1,0 +1,10 @@
+#reading the dataset
+select *
+from [portfolio project 1]..[migration]
+
+#fiding null files 
+Select Immigrants_to_Canada
+from [portfolio project 1]..[migration]
+Where Immigrants_to_Canada is null;
+
+#replacing null values with zero
